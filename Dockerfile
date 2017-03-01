@@ -21,4 +21,4 @@ RUN jekyll build
 # RUN jekyll serve
 #CMD ['jekyll' 'serve']
 ENTRYPOINT ["jekyll", "serve"]
-EXPOSE 80
+EXPOSE 4000
