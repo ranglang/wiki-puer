@@ -18,7 +18,9 @@ RUN gem install json
 RUN gem list
 RUN bundle install
 RUN jekyll build
+RUN npm install http-server -g
 # RUN jekyll serve
 #CMD ['jekyll' 'serve']
-ENTRYPOINT ["jekyll", "serve"]
-EXPOSE 4000
+#ENTRYPOINT ["jekyll", "serve"]
+ENTRYPOINT ["http-server","./_site", "-p", "80"]
+EXPOSE 80
