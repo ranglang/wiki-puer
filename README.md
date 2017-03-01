@@ -2,4 +2,4 @@
 
 <http://support.puer.studio>
 
-Knowledge base for Puer Studio.
+Docs for Puer Studio.
