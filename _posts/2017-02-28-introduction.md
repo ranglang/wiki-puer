@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to use Puer Studio
-date: 2017-03-01
+date: 2017-03-08
 category: basic
 author: puer.studio
 tags: [tutorial]
